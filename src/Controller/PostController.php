@@ -91,7 +91,7 @@ class PostController extends AbstractController
      */
 
     #[Route('/ajouter-un-post', name: 'post_add')]
-    #[IsGranted("ROLE_ADMIN")]
+    // #[IsGranted("ROLE_ADMIN")]
     public function add(): Response
     {
         $errors = [];
