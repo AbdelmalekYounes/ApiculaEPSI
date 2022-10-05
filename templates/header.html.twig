@@ -17,25 +17,29 @@
                         <i class="fas fa-home fs-3"></i>
                     </a>
                 </li>
-                {% if is_granted('ROLE_ADMIN') %}
-                    <a class="icon nav-link active seeMovies d-flex align-items-center" href="{{ path('posts')}}">
-                        <i class="fas fa-th fs-4 ms-3"></i>
-                        <p class="ms-2">Notre catalogue</p>
-                    </a>
-                    <a class="icon nav-link active addMovie d-flex align-items-center" href="{{ path('post_add')}}">
-                        <i class="fas fa-ellipsis-h fs-4 ms-3"></i>
-                        <p class="ms-2">Ajouter un film</p>
-                    </a>
-                {% else %}
+                
+                
                     <a class="icon nav-link active me-3 seeMovies d-flex align-items-center" href="{{ path('posts')}}">
                         <i class="fas fa-th fs-4 ms-3"></i>
-                        <p class="ms-2">Notre catalogue</p>
+                        <p class="ms-2">Apiculteurs partenaires</p>
                     </a>
-                {% endif %}
+                     <a class="icon nav-link active addMovie d-flex align-items-center" href="{{ path('analyse')}}">
+                        <i class="fas fa-ellipsis-h fs-4 ms-3"></i>
+                        <p class="ms-2">Analyse</p>
+                    </a>
+                
 
             </div>
             
             <div class="rightside d-flex">
+            <a class="icon nav-link active addMovie d-flex align-items-center" href="{{ path('post_add')}}">
+                        <i class="fas fa-ellipsis-h fs-4 ms-3"></i>
+                        <p class="ms-2">Ajouter un post</p>
+                    </a>
+                    <a class="icon nav-link active addMovie d-flex align-items-center" href="{{ path('ruche')}}">
+                        <i class="fas fa-ellipsis-h fs-4 ms-3"></i>
+                        <p class="ms-2">Mes Ruches</p>
+                    </a>
                 {% if is_granted('ROLE_USER') %}
                 <a class="icon nav-link active icon1" href="{{ path('user_profile', {id : app.user.id})}}">
                     <i class="fas fa-user-circle fs-3"></i>
@@ -47,10 +51,7 @@
                     <p class="ms-2">Déconnexion</p>
                 </a>
 
-                <form class="d-flex me-3 align-items-center" action="{{ path('search') }}">
-                    <input class="search form-control" type="search" placeholder="Films, utilisateurs ..." aria-label="Search" name="search" style="width:250px">
-                    <button type="submit" class="searchButton"><i class="fas fa-search ms-2 fs-3"></i></button>
-                </form>
+               
             </div>
         </div>
     </div>

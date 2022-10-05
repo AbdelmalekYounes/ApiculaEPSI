@@ -141,16 +141,8 @@
                                 Aujourd'hui à {{ news.value.publishedAt|date('H:i') }}
                             {% endif %}
                         <h1 class="text-center mb-4">{{ news.value.title }} </h1>
-                        <div class="categories text-end">
-                            {% for category in news.value.categories %}
-                                <small class="badge bg-secondary">{{ category }}</small>
-                            {% endfor %}
-                        </div>
-                        <div class="infos mb-3">
-                            <p><small class="text-muted">De</small> {{ news.value.director|nl2br }}</p>
-                            <p><small class="text-muted">Avec</small> {{ news.value.actors|nl2br }}</p>
-                            <p><small class="text-muted">Sortie le </small>{{ news.value.releasedAt|date('d/m/Y') }}</p>
-                        </div>
+                        
+                        
                         
                         <p class="synopsis">{{ news.value.synopsis|nl2br|length > 300 ? news.value.synopsis|slice(0, 300) ~ ' [...]' : news.value.synopsis }}</p>
                         

@@ -25,16 +25,8 @@
             </div>
             <div class="col-infos col-sm-7 mt-3">
                 <h1 class="title text-center">{{ post.title }} </h1>
-                <div class="categories text-end">
-                    {% for category in post.categories %}
-                        <small class="badge bg-secondary">{{ category }}</small>
-                    {% endfor %}
-                </div>
-                <div class="infos mb-3">
-                    <p class="mt-4"><small class="text-muted">De</small> {{ post.director|nl2br }}</p>
-                    <p><small class="text-muted">Avec</small> {{ post.actors|nl2br }}</p>
-                    <p><small class="text-muted">Sortie le </small>{{ post.releasedAt|date('d/m/Y') }}</p>
-                </div>
+                
+                
 
                 {% if post.synopsis|length < 270 %}
                     <p class="synopsis_short">{{ post.synopsis|nl2br }}</p>
@@ -45,15 +37,10 @@
                 {% endif %}
 
                 <div class="buttons mt-5">
-                    <a href="#reviewList" class="add_review btn btn-outline-dark mb-3 me-2 fs-5 scroll-link" id="seeReviews">Voir les critiques</a>
-                    <a href="#add_review" class="add_review btn btn-outline-dark mb-3 me-2 fs-5 scroll-link" id="addReview">Ajouter une critique</a>
+                    <a href="#reviewList" class="add_review btn btn-outline-dark mb-3 me-2 fs-5 scroll-link" id="seeReviews">Voir les commentaires</a>
+                    <a href="#add_review" class="add_review btn btn-outline-dark mb-3 me-2 fs-5 scroll-link" id="addReview">Ajouter un commentaire</a>
                 </div>
-                    {% if post in favposts %}
-                        <a class="suppr_fav btn btn-outline-warning mb-3 fs-5" href="{{ path('remove_favposts', {'id':post.id}) }}">Supprimer des favoris</a>
-                        <i class="heart fas fa-heart"></i>
-                    {% else %}
-                        <a class="add_fav btn btn-outline-warning mb-3 fs-5" href="{{ path('add_favposts', {'id':post.id}) }}">Ajouter en favoris</a>
-                    {% endif %}
+                   
 
                 {% if is_granted('ROLE_ADMIN') %}
                     <div class="admin_buttons">
@@ -63,10 +50,7 @@
                 {% endif %}
             </div>
         </div>
-        <div class="row youtube mt-5 mb-5 w-75">
-            <h2 class="fs-1 mb-4 text-center">Bande annonce</h2>
-            <iframe width="300" height="500" src="{{ post.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        
     </div>
     <div class="review" id="add_review">
         {% include "reviews/add.html.twig" %}
