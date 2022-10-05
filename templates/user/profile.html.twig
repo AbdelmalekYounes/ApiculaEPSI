@@ -23,13 +23,6 @@
                 {% else %}
                     <p>Membre depuis : {{ register }} jours</p>
                 {% endif %}
-                <div class="d-flex">
-                    {% for preference in user.preferences %}
-                        <div class="preference me-2">
-                            {{ preference }}
-                        </div>  
-                    {% endfor %}
-                </div>
             </div>
             <div class="follow col d-flex align-items-center justify-content-end me-4">
                 {% if app.user.id != user.id %}
