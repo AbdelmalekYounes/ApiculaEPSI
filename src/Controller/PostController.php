@@ -58,6 +58,28 @@ class PostController extends AbstractController
         ]);
     }
 
+    #[Route('/analyse', name: 'analyse')]
+    public function analyse(): Response
+    {
+        
+
+        return $this->render('analyse.html.twig');
+            
+        
+    }
+
+
+    #[Route('/ruche', name: 'ruche')]
+    public function ruche(): Response
+    {
+        
+
+        return $this->render('ruche.html.twig');
+            
+        
+    }
+
+
     #[Route('/details-de-post/{id}', name: 'post_view')]
     public function view(int $id): Response
     {
