@@ -1,16 +1,16 @@
 .save_button{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .save_button:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 .back_button{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .back_button:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }

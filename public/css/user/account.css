@@ -37,14 +37,14 @@
 .modifyInfos{
     position: absolute;
     right: 0;
-    background-color:#7C80B6;
-    border-color:#7C80B6;
+    background-color:#ffc219;
+    border-color:#ffc219;
     margin-right: 60px;
 }
 
 .modifyInfos:hover{
-    background-color:#6f73af;
-    border-color: #6f73af;    
+    background-color:#ffc219;
+    border-color: #ffc219;    
 }
 
 .myProfile{
@@ -62,8 +62,8 @@
 }
 
 .modal-fade .close{
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 
 .modalAbonnement img.profilePicture{
@@ -74,7 +74,7 @@
 }
 
 .modalAbonnement a{
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 .modal-content{

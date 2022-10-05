@@ -79,8 +79,8 @@ h1 {
 }
 
 .button:hover{
-    background: #7C80B6;
-    box-shadow: 0 0 5px #7C80B6, 0 0 10px #7C80B6, 0 0 15px #7C80B6, 0 0 20px #7C80B6;
+    background: #ffc219;
+    box-shadow: 0 0 5px #ffc219, 0 0 10px #ffc219, 0 0 15px #ffc219, 0 0 20px #ffc219;
 }
 
 

@@ -1,5 +1,5 @@
 body{
-    background-color: #7C80B6;
+    background-color: #ffc219;
 }
 
 footer{
@@ -54,8 +54,8 @@ header{
 }
 .connect:hover{
     color:#fff;
-    background-color:#7C80B6;
-    border-color:#7C80B6
+    background-color:#ffc219;
+    border-color:#ffc219
 }
 
 
@@ -92,11 +92,11 @@ label{
 }
 
 .return {
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 .return:hover{
-    color:#6f73af;
+    color:#ffc219;
 }
 
 /* RESET */ 

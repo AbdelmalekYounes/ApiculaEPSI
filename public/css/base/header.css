@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #7C80B6 !important;
+    background-color: #ffc219 !important;
     box-shadow: 1px 1px 4px grey;
     position: sticky;
     top: 0px;
@@ -22,13 +22,21 @@
 
 #logo{
    width: 50px !important;
-   transform: rotate(30deg);
-   animation: upNdown 5s infinite linear;
-   margin-left: 50px;
+   
+   margin-left: 25px;
+}
+#apicula{
+    margin-top: -130px;
+    width: 400px;
+    margin-right: -100px;
+    margin-left: -105px;
+}
+#logo_apicula{
+    width: 135px;
 }
 
 .rightside .icon{
-    color: #eff2f5 !important;
+    color: black !important;
     display: flex;
     align-items: center;
     margin-right: -10px;
@@ -45,7 +53,7 @@ input.search{
 
 .searchButton{
     border: none;
-    background-color: #7C80B6;
+    background-color: #ffc219;
 }
 
 .fa-search{
@@ -58,20 +66,20 @@ input.search{
 }
 
 .see_more{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 .see_more:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 .nav-item a{
-    color: #eff2f5 !important;
+    color: black !important;
     font-size: 17px;
 }
 
 .seeMovies{
-    color: #eff2f5 !important;
+    color: black !important;
     margin-top: -3px;
 }
 
@@ -81,7 +89,7 @@ input.search{
 }
 
 .addMovie{
-    color: #eff2f5 !important;
+    color: black !important;
     margin-top: -3px; 
 }
 
@@ -111,7 +119,7 @@ input.search{
     }
 
     .navbar-nav{
-        background-color: #7C80B6;
+        background-color: #ffc219;
         width: 412px;
         margin-left: -27px;
         border-radius: 8px;
@@ -172,6 +180,6 @@ input.search{
     }
 
     form .searchButton i{
-        color: #eff2f5 !important;
+        color: black !important;
     }
 }

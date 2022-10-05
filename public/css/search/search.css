@@ -20,7 +20,7 @@
 }
 
 .search button i{
-    color: #7C80B6;
+    color: #ffc219;
     font-size: 50px;
 }
 
@@ -30,35 +30,35 @@
 
 #users{
     width: 155px;
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 
 #users:hover{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
     color: #eff2f5;
 }
 
 #users:focus{
-    background-color: #7C80B6;
+    background-color: #ffc219;
     color: #eff2f5;
 }
 
 #posts{
     width: 155px;
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 
 #posts:hover{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
     color: #eff2f5;
 }
 
 #posts:focus{
-    background-color: #7C80B6;
+    background-color: #ffc219;
     color: #eff2f5;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .table tbody tr:hover{
-    background-color: #7c80b6c9;
+    background-color: #ffc219c9;
     cursor: pointer;
 }
 

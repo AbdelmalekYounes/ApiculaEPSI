@@ -1,5 +1,5 @@
 body{
-    background-color: #7C80B6;
+    background-color: #ffc219;
 }
 
 footer{
@@ -56,8 +56,8 @@ nav{
 
 .btnreg:hover{
     color:#fff;
-    background-color:#7C80B6;
-    border-color:#7C80B6
+    background-color:#ffc219;
+    border-color:#ffc219
 }
 
 .title{

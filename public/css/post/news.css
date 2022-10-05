@@ -23,7 +23,7 @@
     top: 25px;
     left: -70px;
     font-size: 45px;
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 img.cover{
@@ -43,11 +43,11 @@ img.cover{
 }
 
 .see_more{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 .see_more:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 
@@ -64,7 +64,7 @@ img.cover{
 }
 
 .user a{
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 .note{
@@ -72,16 +72,16 @@ img.cover{
 }
 
 .see_comments{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .see_comments:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 .see_comments:focus{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 .review .date .cover{
@@ -101,7 +101,7 @@ img.cover{
     top: 25px;
     left: -70px;
     font-size: 45px;
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 /* -- NOUVELLES REVIEWS FAVPOSTS ---------------------------- */
@@ -111,7 +111,7 @@ img.cover{
     top: 25px;
     left: -70px;
     font-size: 45px;
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 /* RESPONSIVE */

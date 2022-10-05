@@ -11,14 +11,14 @@
 .backToAccount{
     position: absolute;
     right: 0;
-    background-color:#7C80B6;
-    border-color:#7C80B6;
+    background-color:#ffc219;
+    border-color:#ffc219;
     margin-right: 60px;
 }
 
 .backToAccount:hover{
-    background-color:#6f73af;
-    border-color: #6f73af;    
+    background-color:#ffc219;
+    border-color: #ffc219;    
 }
 
 .myProfile{
@@ -60,10 +60,10 @@ form{
 }
 
 .save_button{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .save_button:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }

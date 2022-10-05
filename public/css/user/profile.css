@@ -14,13 +14,13 @@
 .header .follow .follow{
     font-size: 19px;
     padding: 5px 23px 5px 23px;
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 
 .header .follow .follow:hover{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
     color: #eff2f5;
 }
 
@@ -29,13 +29,13 @@
 }
 
 .header .account button{
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 
 .header .account button:hover{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
     color: #eff2f5;
 }
 
@@ -48,8 +48,8 @@
 }
 
 .modal-fade .close{
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 
 .modalAbonnement img.profilePicture{
@@ -60,7 +60,7 @@
 }
 
 .modalAbonnement a{
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 .modal-content{
@@ -98,7 +98,7 @@
 }
 
 .user a{
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 .note{
@@ -113,16 +113,16 @@ img.cover
 }
 
 .see_comments{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .see_comments:hover{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 .see_comments:focus{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 .review .date .cover{

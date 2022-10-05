@@ -1,5 +1,5 @@
 body{
-    background-color: #7C80B6;
+    background-color: #ffc219;
 }
 
 footer{
@@ -57,8 +57,8 @@ nav{
 }
 .connect:hover{
     color:#fff;
-    background-color:#7C80B6;
-    border-color:#7C80B6
+    background-color:#ffc219;
+    border-color:#ffc219
 }
 
 .password{
@@ -68,8 +68,8 @@ nav{
 }
 .password:hover{
     color:#fff;
-    background-color:#7C80B6;
-    border-color:#7C80B6
+    background-color:#ffc219;
+    border-color:#ffc219
 }
 
 .form-control{

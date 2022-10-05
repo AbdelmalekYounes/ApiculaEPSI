@@ -30,12 +30,12 @@ img.cover{
 }
 
 .add_review{
-    color:#7C80B6;
-    border-color:#7C80B6;
+    color:#ffc219;
+    border-color:#ffc219;
 }
 .add_review:hover{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .suppr_fav{
@@ -88,17 +88,17 @@ img.cover{
 }
 
 .see_comments{
-    border-color:#7C80B6;
-    background-color:#7C80B6;
+    border-color:#ffc219;
+    background-color:#ffc219;
 }
 
 .see_comments:hover{
-    background-color:#6f73af;
-    border-color: #7C80B6;
+    background-color:#ffc219;
+    border-color: #ffc219;
 }
 
 .see_comments:focus{
-    background-color:#6f73af;
+    background-color:#ffc219;
 }
 
 .heart{
@@ -106,7 +106,7 @@ img.cover{
     top: 0px;
     right: 0px;
     font-size: 45px;
-    color: #7C80B6;
+    color: #ffc219;
 }
 
 /* RESPONSIVE */
