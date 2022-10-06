@@ -59,7 +59,7 @@
         {% for review in reviews|reverse %}
             <div class="seereview row align-items-center">
                 <div class="form-control mb-3">
-                    <p class="user text-muted">Critique de 
+                    <p class="user text-muted">Commentaire de 
                         <a href="{{ path('user_profile', {'id':review.user.id}) }}" style="text-decoration: none;">{{ review.user.username }} 
                             {# <img src="{{ asset( 'uploads/profilePicture/' ~ review.user.profilePicture) }}" alt="profile picture user" style="width:50px;"> #}
                         </a>
