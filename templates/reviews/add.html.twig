@@ -12,17 +12,17 @@
 
 {% block body %}
 <div class="container-lg w-75 mt-5">
-    <h1 class="fs-2 text-center mb-4">Ajoutez une critique à ce film</h1>
+    <h1 class="fs-2 text-center mb-4">Ajoutez un commentaire</h1>
     <form method="post"  action="{{ path('reviews_add', {'id':post.id}) }}">
         <div class="row">
             <div class="mb-3 fs-4">
-                <label for="title">Titre de votre critique</label>
+                <label for="title">Titre de votre commentaire</label>
                 <input type="text" name="title" id="title" class="form-control">
             </div>
         </div>
         <div class='row'>
             <div class="mb-3 fs-4">
-                <label for="content">Rédiger votre critique</label>
+                <label for="content">Rédiger votre commentaire</label>
                 <textarea name="content" id="content" rows="10" class="form-control" cols="4"></textarea>
             </div>
         </div>

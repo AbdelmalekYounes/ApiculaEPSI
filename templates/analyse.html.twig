@@ -7,7 +7,27 @@
 {% block stylesheets %}
 <link rel="stylesheet" href="{{ asset('css/post/list.css')}}">
 {% endblock %}
-          
+        <h3 class="titre">RÉPARTITION RÉGIONALE DES APICULTEURS</h3>
+
+            <img class="img-carte" src="{{ asset('carte.png')}}">
+           <h3 class="titre">MOYENNES DE NOS ABONNÉS</h3>
+        <div class="flex-ruche">
+        
+           <div class="flex-ruche-div">
+                 <h5>Température interne moyenne des  ruches : 34°C </h5>
+                 
+                 <img class="img" src="{{ asset('graph1.png')}}">
+           </div>
+           <div class="flex-ruche-div">
+                 <h5>Taux d'humidité interne moyen : 8%</h5>
+                <img class="img" src="{{ asset('graph2.png')}}">
+
+           </div>
+           
+           
+
+    
+        </div>
   
 {% endblock %}
 

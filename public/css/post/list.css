@@ -153,7 +153,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin-left: -100px;
 }
 
 
@@ -165,6 +165,8 @@ h1 {
     border-radius: 20px;
     background-color: white;
     text-align: center;
+    border-style:double;
+    border-color: #ffc219;
 }
 
 
@@ -174,11 +176,45 @@ h1 {
     box-shadow: 2px 2px 6px grey;
     align-self: center;
     max-height: 100px;
+    
+}
+
+.flex-ruche{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .flex-ruche-div {
 flex-direction:row;
 background-color: white;
 margin: 10px;
-width: 40%;
+width: 35%;
+margin-right: 3%;
+margin-left: 3%;
+margin-top: 3%;
+border-radius: 20px;
+border-style:double;
+    border-color: #ffc219;
+}
+
+.flex-ruche-div img{
+    max-width: 100%;
+    border-radius: 20px;
+  
+}
+.flex-ruche-div h5{
+    text-align: center;
+    margin-top: 20px;
+    }
+
+.img-carte{
+    display:block;
+    max-height: 525px;        
+    margin-left: 340px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style:double;
+    border-color: #ffc219;
 }

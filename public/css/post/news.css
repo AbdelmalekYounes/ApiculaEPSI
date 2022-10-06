@@ -114,6 +114,12 @@ img.cover{
     color: #ffc219;
 }
 
+
+.btn-secondary {
+    color: black;
+    
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 600px) {
@@ -196,5 +202,6 @@ img.cover{
         margin-top: 10px;
     }
 }
+
 
 

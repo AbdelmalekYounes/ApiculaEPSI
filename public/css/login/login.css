@@ -20,7 +20,7 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -65%);
+    transform: translate(-50%, -58%);
     background-color: #FFFFFF;
 }
 
@@ -33,7 +33,7 @@ header{
 
 .title{
     font-weight: 200;
-    font-size: 40px;
+    font-size: 30px;
     color: #242747;
 }
 
@@ -92,15 +92,16 @@ label{
 }
 
 #logo{
-    width: 800px !important;
-    margin-top: -200px;
-    margin-left: -100px;
+    width: 1000px !important;
+    margin-top: -700px;
+    margin-left: -400px;
     transform: rotate(45deg);
-    /* animation: spin 5s linear infinite; */
-    animation: upNdown 5s infinite linear;
 }
 
-
+.logo_texte{
+    transform: translate(-10%, -55%);
+    margin-left: 480px;
+}
 /* Responsive  */
 @media (max-width: 600px) {
     .container-lg{
